@@ -1,0 +1,7 @@
+import fitz 
+
+#open the PDF file 
+with fitz. open('path/to/pdf/file.pdf') as doc:
+  #Get the first page of the PDF
+  page = doc[0]
+  
